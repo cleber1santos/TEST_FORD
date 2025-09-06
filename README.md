@@ -31,8 +31,11 @@ Devido à simplicidade do modelo GPT4All:
 
 - Podem ocorrer **erros nas bibliotecas** ou inconsistências na geração das respostas.  
 - O modelo pode ter dificuldade de **identificar exatamente o que o usuário deseja**.  
+- A função de **leitura e interpretação de PDFs não funcionou perfeitamente**, pois a IA não conseguia separar as informações corretamente.  
+  - Por exemplo: ao pedir uma resposta específica, o modelo retornava **todas as informações de todos os vetores armazenados**, dificultando respostas objetivas.  
 - Para contornar essas limitações, foi necessário criar um **sistema de palavras-chave**, ajudando a filtrar os documentos mais relevantes durante a busca.  
 - Ajustei o parâmetro `k=3` no retriever para aumentar a precisão das respostas.  
+- Para que a função de PDF funcionasse de forma ideal, seria necessário usar um modelo mais potente, como **GPT-4 Mini**, mas este é pago.
 
 ---
 
@@ -50,6 +53,7 @@ Mesmo com um LLM básico, essa arquitetura garante **respostas mais relevantes e
 
 Este projeto demonstra como é possível construir um **assistente de perguntas e respostas** eficiente utilizando apenas ferramentas gratuitas e open-source, destacando a importância de um **bom sistema de busca (RAG)** para complementar modelos de LLM mais simples.
 
+---
 
 ## Visualização do Projeto
 

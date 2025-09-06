@@ -62,3 +62,5 @@ Este projeto demonstra como é possível construir um **assistente de perguntas 
 
 ### Arquitetura RAG
 ![Arquitetura RAG](testeIMG/arquitetura_projeto.avif)
+
+[![Clique para assistir](testeIMG/miniApresentação.mp4)

@@ -54,7 +54,7 @@ Este projeto demonstra como é possível construir um **assistente de perguntas 
 ## Visualização do Projeto
 
 ### Interface do Assistente
-![Interface do Assistente](testeIMG/raspProjeto.jpg)
+![Interface do Assistente](testeIMG/respProjeto.jpg)
 
 ### Arquitetura RAG
 ![Arquitetura RAG](testeIMG/arquitetura_projeto.avif)
